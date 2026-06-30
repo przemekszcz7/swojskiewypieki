@@ -58,12 +58,17 @@
         scroll-behavior: smooth;
       }
 
+      html, body {
+        overflow-x: hidden;
+        width: 100%;
+        max-width: 100%;
+      }
+
       body {
         font-family: 'Plus Jakarta Sans', sans-serif;
         background-color: var(--bg);
         color: var(--text);
         line-height: 1.6;
-        overflow-x: hidden;
       }
 
       h1, h2, h3, h4 {
@@ -513,7 +518,7 @@
 
       .products-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
         gap: 30px;
       }
 
@@ -701,7 +706,7 @@
 
       .flavors-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
         gap: 24px;
       }
 
@@ -761,7 +766,7 @@
 
       .testimonial-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
         gap: 30px;
       }
 
@@ -834,7 +839,7 @@
 
       .why-us-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
         gap: 24px;
       }
 
@@ -1405,9 +1410,6 @@
     </script>
   </head>
   <body>
-    <!-- Hidden input for pure-CSS hamburger menu toggle -->
-    <input type="checkbox" id="menu-toggle" class="menu-btn" style="display: none;" />
-
     <!-- HEADER / NAVIGATION -->
     <header id="strona-glowna">
       <div class="container header-container">
@@ -1418,6 +1420,9 @@
             <span>Piekarnia &amp; Cukiernia</span>
           </div>
         </a>
+
+        <!-- Hidden input inside the container so it is a sibling of label and nav -->
+        <input type="checkbox" id="menu-toggle" style="display: none;" />
 
         <!-- CSS Toggle Label acting as hamburger icon -->
         <label for="menu-toggle" class="menu-btn">
@@ -2066,5 +2071,17 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      // Close mobile navigation drawer when any nav link is clicked
+      document.querySelectorAll('nav a').forEach(link => {
+        link.addEventListener('click', () => {
+          const toggle = document.getElementById('menu-toggle');
+          if (toggle) {
+            toggle.checked = false;
+          }
+        });
+      });
+    </script>
   </body>
 </html>
