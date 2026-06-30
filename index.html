@@ -1,0 +1,2070 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <title>Swojskie Wypieki - Tradycyjna Piekarnia i Cukiernia Piastów | Świeże Pieczywo i Lody</title>
+    <meta name="description" content="Poznaj Swojskie Wypieki w Piastowie! Tradycyjne chleby na zakwasie, chrupiące bułki, drożdżówki prosto z pieca oraz lody rzemieślnicze na Ursynowie. Prawdziwy smak dzieciństwa!" />
+    <meta name="keywords" content="piekarnia Piastów, świeże pieczywo Piastów, chleb Piastów, bułki Piastów, drożdżówki Piastów, lody rzemieślnicze Ursynów, wypieki domowe, swojskie wypieki" />
+    <meta name="author" content="Swojskie Wypieki" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph (Facebook) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Swojskie Wypieki - Tradycyjna Piekarnia i Cukiernia Piastów" />
+    <meta property="og:description" content="Tradycyjne chleby na zakwasie, chrupiące bułki, pyszne drożdżówki oraz lody rzemieślnicze. Zapraszamy po świeże wypieki prosto z pieca!" />
+    <meta property="og:image" content="https://i.ibb.co/ksPk7S2F/305126172-609226120844414-7210009753148408028-n.jpg" />
+    <meta property="og:url" content="https://swojskiewypieki.pl" />
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Swojskie Wypieki - Tradycyjna Piekarnia i Cukiernia Piastów" />
+    <meta name="twitter:description" content="Tradycyjne wypieki i naturalne lody rzemieślnicze. Prawdziwe rzemiosło, swojski smak i zapach ciepłego chleba." />
+    <meta name="twitter:image" content="https://i.ibb.co/ksPk7S2F/305126172-609226120844414-7210009753148408028-n.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="https://i.ibb.co/ksPk7S2F/305126172-609226120844414-7210009753148408028-n.jpg" />
+
+    <!-- Google Fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+      /* Custom CSS Variables & Base Styles */
+      :root {
+        --primary: #9a3b25;
+        --primary-dark: #7d2e1b;
+        --primary-light: #f5e4e0;
+        --secondary: #ffdca0;
+        --secondary-dark: #b89047;
+        --secondary-light: #fff7ea;
+        --bg: #ffffff;
+        --section-bg: #fff7ea;
+        --text: #3a2b21;
+        --text-light: #725d50;
+        --white: #ffffff;
+        --shadow-sm: 0 4px 6px -1px rgba(58, 43, 33, 0.05), 0 2px 4px -1px rgba(58, 43, 33, 0.03);
+        --shadow-md: 0 10px 15px -3px rgba(154, 59, 37, 0.08), 0 4px 6px -2px rgba(58, 43, 33, 0.04);
+        --shadow-lg: 0 20px 25px -5px rgba(154, 59, 37, 0.12), 0 10px 10px -5px rgba(58, 43, 33, 0.06);
+        --border-radius-lg: 24px;
+        --border-radius-xl: 32px;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        background-color: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        overflow-x: hidden;
+      }
+
+      h1, h2, h3, h4 {
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        color: var(--text);
+        line-height: 1.25;
+      }
+
+      p {
+        font-size: 1.05rem;
+        color: var(--text-light);
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+        transition: all 0.3s ease;
+      }
+
+      img {
+        max-width: 100%;
+        display: block;
+        object-fit: cover;
+      }
+
+      /* Container Utility */
+      .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 24px;
+      }
+
+      /* Decorative Elements */
+      .wheat-divider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        margin: 24px auto;
+        color: var(--primary);
+      }
+      .wheat-divider::before, .wheat-divider::after {
+        content: '';
+        height: 1px;
+        width: 80px;
+        background-color: var(--primary);
+        opacity: 0.3;
+      }
+
+      /* Section Common Layout */
+      section {
+        padding: 80px 0;
+        position: relative;
+      }
+      
+      .section-header {
+        text-align: center;
+        margin-bottom: 50px;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .section-badge {
+        display: inline-block;
+        padding: 6px 16px;
+        background-color: var(--primary-light);
+        color: var(--primary);
+        font-size: 0.85rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        border-radius: 50px;
+        margin-bottom: 16px;
+      }
+
+      .section-title {
+        font-size: 2.5rem;
+        color: var(--text);
+        margin-bottom: 16px;
+        position: relative;
+      }
+
+      /* Buttons */
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 14px 32px;
+        border-radius: 50px;
+        font-weight: 700;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        gap: 8px;
+        border: none;
+        outline: none;
+      }
+
+      .btn-primary {
+        background-color: var(--primary);
+        color: var(--white);
+        box-shadow: 0 8px 20px -6px rgba(154, 59, 37, 0.4);
+      }
+
+      .btn-primary:hover {
+        background-color: var(--primary-dark);
+        transform: translateY(-2px);
+        box-shadow: 0 12px 24px -6px rgba(154, 59, 37, 0.5);
+      }
+
+      .btn-secondary {
+        background-color: var(--secondary);
+        color: var(--text);
+        box-shadow: 0 8px 20px -6px rgba(184, 144, 71, 0.2);
+      }
+
+      .btn-secondary:hover {
+        background-color: #f7cb85;
+        transform: translateY(-2px);
+        box-shadow: 0 12px 24px -6px rgba(184, 144, 71, 0.35);
+      }
+
+      .btn-outline {
+        background-color: transparent;
+        border: 2px solid var(--primary);
+        color: var(--primary);
+      }
+
+      .btn-outline:hover {
+        background-color: var(--primary-light);
+        transform: translateY(-2px);
+      }
+
+      /* Header Styling */
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background-color: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(8px);
+        border-bottom: 1px solid var(--primary-light);
+        box-shadow: 0 2px 15px rgba(58, 43, 33, 0.04);
+      }
+
+      .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 90px;
+      }
+
+      .logo-area {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .logo-img {
+        width: 54px;
+        height: 54px;
+        border-radius: 50%;
+        border: 2px solid var(--secondary);
+        box-shadow: var(--shadow-sm);
+        object-fit: cover;
+      }
+
+      .logo-text {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.5rem;
+        font-weight: 800;
+        color: var(--primary);
+        letter-spacing: -0.5px;
+        display: flex;
+        flex-direction: column;
+        line-height: 1.1;
+      }
+
+      .logo-text span {
+        font-size: 0.75rem;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        text-transform: uppercase;
+        color: var(--text-light);
+        letter-spacing: 2px;
+        font-weight: 600;
+      }
+
+      /* Desktop Nav */
+      nav ul {
+        display: flex;
+        list-style: none;
+        gap: 28px;
+        align-items: center;
+      }
+
+      nav a {
+        font-weight: 600;
+        font-size: 0.95rem;
+        color: var(--text);
+        position: relative;
+        padding: 6px 0;
+      }
+
+      nav a::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: var(--primary);
+        transition: width 0.3s ease;
+      }
+
+      nav a:hover {
+        color: var(--primary);
+      }
+
+      nav a:hover::after {
+        width: 100%;
+      }
+
+      /* CSS Mobile Hamburger Hack */
+      .menu-btn, .menu-icon {
+        display: none;
+      }
+
+      /* Hero Section */
+      .hero {
+        background-color: var(--secondary-light);
+        min-height: 90vh;
+        display: flex;
+        align-items: center;
+        padding: 60px 0;
+        overflow: hidden;
+      }
+
+      .hero-grid {
+        display: grid;
+        grid-template-columns: 1.1fr 0.9fr;
+        gap: 50px;
+        align-items: center;
+      }
+
+      .hero-content {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+      }
+
+      .hero-title-group h1 {
+        font-size: 3.8rem;
+        color: var(--primary);
+        margin-bottom: 12px;
+        letter-spacing: -1px;
+      }
+
+      .hero-title-group h2 {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: var(--text);
+        line-height: 1.4;
+      }
+
+      .hero-desc {
+        font-size: 1.15rem;
+        color: var(--text-light);
+      }
+
+      .hero-benefits {
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+        margin-top: 8px;
+      }
+
+      .hero-benefits li {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 600;
+        font-size: 0.95rem;
+        color: var(--text);
+      }
+
+      .hero-benefits li svg {
+        flex-shrink: 0;
+        color: var(--primary);
+      }
+
+      .hero-actions {
+        display: flex;
+        gap: 16px;
+        margin-top: 16px;
+      }
+
+      .hero-visual {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .hero-img-wrapper {
+        position: relative;
+        width: 100%;
+        max-width: 480px;
+        aspect-ratio: 1;
+        border-radius: var(--border-radius-xl);
+        overflow: hidden;
+        box-shadow: var(--shadow-lg);
+        border: 8px solid var(--white);
+        transform: rotate(-1.5deg);
+      }
+
+      .hero-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+      }
+
+      .hero-img-wrapper:hover .hero-img {
+        transform: scale(1.05);
+      }
+
+      .badge-corner {
+        position: absolute;
+        bottom: -20px;
+        left: -20px;
+        background-color: var(--primary);
+        color: var(--white);
+        padding: 16px 24px;
+        border-radius: 20px;
+        box-shadow: var(--shadow-md);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: rotate(4deg);
+        z-index: 5;
+      }
+
+      .badge-corner span:first-child {
+        font-size: 1.4rem;
+        font-weight: 800;
+        color: var(--secondary);
+        font-family: 'Playfair Display', serif;
+      }
+
+      .badge-corner span:last-child {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-weight: 600;
+      }
+
+      /* O Nas Section */
+      .about {
+        background-color: var(--white);
+      }
+
+      .about-grid {
+        display: grid;
+        grid-template-columns: 1fr 1.1fr;
+        gap: 60px;
+        align-items: center;
+      }
+
+      .about-images {
+        position: relative;
+      }
+
+      .about-img-main {
+        width: 85%;
+        border-radius: var(--border-radius-lg);
+        box-shadow: var(--shadow-md);
+        border: 6px solid var(--white);
+      }
+
+      .about-img-sub {
+        position: absolute;
+        bottom: -30px;
+        right: 0;
+        width: 50%;
+        border-radius: var(--border-radius-lg);
+        box-shadow: var(--shadow-lg);
+        border: 6px solid var(--white);
+      }
+
+      .about-content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .about-highlight {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.4rem;
+        font-style: italic;
+        color: var(--primary);
+        border-left: 4px solid var(--secondary);
+        padding-left: 20px;
+        margin: 10px 0;
+      }
+
+      .about-features {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        margin-top: 15px;
+      }
+
+      .about-feature-item {
+        display: flex;
+        gap: 14px;
+      }
+
+      .about-feature-icon {
+        width: 44px;
+        height: 44px;
+        border-radius: 12px;
+        background-color: var(--primary-light);
+        color: var(--primary);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+      }
+
+      .about-feature-text h4 {
+        font-size: 1.1rem;
+        margin-bottom: 4px;
+      }
+
+      .about-feature-text p {
+        font-size: 0.9rem;
+      }
+
+      /* Nasze Wypieki Section (Categories Grid) */
+      .products {
+        background-color: var(--section-bg);
+      }
+
+      .products-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 30px;
+      }
+
+      .product-card {
+        background-color: var(--white);
+        border-radius: var(--border-radius-lg);
+        padding: 40px 30px;
+        box-shadow: var(--shadow-sm);
+        transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border: 1px solid rgba(154, 59, 37, 0.04);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .product-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background-color: var(--primary);
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
+      .product-card:hover {
+        transform: translateY(-8px);
+        box-shadow: var(--shadow-lg);
+        border-color: var(--primary-light);
+      }
+
+      .product-card:hover::before {
+        transform: scaleX(1);
+      }
+
+      .product-icon {
+        width: 64px;
+        height: 64px;
+        border-radius: 20px;
+        background-color: var(--secondary-light);
+        color: var(--primary);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        margin-bottom: 24px;
+        box-shadow: inset 0 2px 4px rgba(154, 59, 37, 0.05);
+      }
+
+      .product-card h3 {
+        font-size: 1.4rem;
+        margin-bottom: 12px;
+      }
+
+      .product-card p {
+        font-size: 0.95rem;
+        margin-bottom: 20px;
+        flex-grow: 1;
+      }
+
+      .product-card .btn-link {
+        font-weight: 700;
+        color: var(--primary);
+        font-size: 0.95rem;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+
+      .product-card .btn-link svg {
+        transition: transform 0.3s ease;
+      }
+
+      .product-card:hover .btn-link svg {
+        transform: translateX(4px);
+      }
+
+      /* Galeria Wypieków Section (Masonry Grid) */
+      .gallery {
+        background-color: var(--white);
+      }
+
+      .gallery-masonry {
+        column-count: 4;
+        column-gap: 24px;
+        width: 100%;
+      }
+
+      .gallery-item {
+        break-inside: avoid;
+        margin-bottom: 24px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 20px;
+        box-shadow: var(--shadow-sm);
+        border: 4px solid var(--white);
+        transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
+      .gallery-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 16px;
+        transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
+      .gallery-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top, rgba(58, 43, 33, 0.8) 0%, rgba(58, 43, 33, 0) 60%);
+        opacity: 0;
+        transition: opacity 0.4s ease;
+        display: flex;
+        align-items: flex-end;
+        padding: 24px;
+        border-radius: 16px;
+      }
+
+      .gallery-caption {
+        color: var(--white);
+        font-family: 'Playfair Display', serif;
+        font-size: 1.1rem;
+        font-weight: 600;
+        transform: translateY(10px);
+        transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
+      .gallery-item:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--shadow-md);
+      }
+
+      .gallery-item:hover img {
+        transform: scale(1.05);
+      }
+
+      .gallery-item:hover .gallery-overlay {
+        opacity: 1;
+      }
+
+      .gallery-item:hover .gallery-caption {
+        transform: translateY(0);
+      }
+
+      /* Lody Rzemieślnicze Section */
+      .ice-cream {
+        background-color: #f3f9fb; /* Cool light refreshing background */
+        background-image: radial-gradient(var(--white) 15%, transparent 16%);
+        background-size: 24px 24px;
+      }
+
+      .ice-cream-badge {
+        display: inline-block;
+        padding: 6px 16px;
+        background-color: #e0f2fe;
+        color: #0369a1;
+        font-size: 0.85rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        border-radius: 50px;
+        margin-bottom: 16px;
+      }
+
+      .ice-cream-location {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        margin-top: -10px;
+        margin-bottom: 40px;
+        font-weight: 700;
+        color: #0369a1;
+        font-size: 1.1rem;
+      }
+
+      .flavors-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 24px;
+      }
+
+      .flavor-card {
+        border-radius: 20px;
+        padding: 30px 24px;
+        text-align: center;
+        box-shadow: var(--shadow-sm);
+        transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+        border: 2px solid transparent;
+      }
+
+      .flavor-card:hover {
+        transform: translateY(-6px);
+        box-shadow: var(--shadow-md);
+      }
+
+      .flavor-emoji {
+        font-size: 3rem;
+        line-height: 1;
+        transform-origin: bottom center;
+        transition: transform 0.3s ease;
+      }
+
+      .flavor-card:hover .flavor-emoji {
+        transform: scale(1.15) rotate(5deg);
+      }
+
+      .flavor-title {
+        font-size: 1.25rem;
+        font-weight: 800;
+      }
+
+      .flavor-desc {
+        font-size: 0.9rem;
+        color: var(--text-light);
+      }
+
+      /* Custom Flavor Card Styling */
+      .f-bubble { background-color: #fdf2f8; border-color: #fbcfe8; color: #9d174d; }
+      .f-oreo { background-color: #f3f4f6; border-color: #e5e7eb; color: #1f2937; }
+      .f-strawberry { background-color: #fff5f5; border-color: #fed7d7; color: #9b2c2c; }
+      .f-lemon { background-color: #fefdf0; border-color: #fef08a; color: #854d0e; }
+      .f-caramel { background-color: #fffbeb; border-color: #fde68a; color: #78350f; }
+      .f-pistachio { background-color: #f0fdf4; border-color: #bbf7d0; color: #166534; }
+      .f-lavender { background-color: #faf5ff; border-color: #e9d5ff; color: #6b21a8; }
+      .f-cream { background-color: #fafaf9; border-color: #f5f5f4; color: #44403c; }
+
+      /* Opinie Klientów Section */
+      .testimonials {
+        background-color: var(--white);
+      }
+
+      .testimonial-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+        gap: 30px;
+      }
+
+      .testimonial-card {
+        background-color: var(--section-bg);
+        border-radius: var(--border-radius-lg);
+        padding: 40px;
+        box-shadow: var(--shadow-sm);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 1px solid var(--primary-light);
+      }
+
+      .testimonial-quote {
+        font-size: 1.1rem;
+        font-style: italic;
+        color: var(--text);
+        margin-bottom: 24px;
+        position: relative;
+        z-index: 2;
+      }
+
+      .testimonial-quote::before {
+        content: '“';
+        font-family: 'Playfair Display', serif;
+        font-size: 5rem;
+        position: absolute;
+        top: -40px;
+        left: -15px;
+        color: var(--primary);
+        opacity: 0.1;
+        line-height: 1;
+      }
+
+      .testimonial-author {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .testimonial-avatar {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background-color: var(--primary);
+        color: var(--white);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 1.1rem;
+      }
+
+      .testimonial-meta h4 {
+        font-size: 1rem;
+        margin-bottom: 2px;
+      }
+
+      .testimonial-stars {
+        color: #fbbf24;
+        font-size: 0.9rem;
+      }
+
+      /* Dlaczego My Section */
+      .why-us {
+        background-color: var(--section-bg);
+      }
+
+      .why-us-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 24px;
+      }
+
+      .why-us-card {
+        background-color: var(--white);
+        border-radius: 20px;
+        padding: 30px 24px;
+        box-shadow: var(--shadow-sm);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        transition: transform 0.3s ease;
+      }
+
+      .why-us-card:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--shadow-md);
+      }
+
+      .why-us-icon {
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        background-color: var(--primary-light);
+        color: var(--primary);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .why-us-card h3 {
+        font-size: 1.15rem;
+        font-weight: 700;
+      }
+
+      /* Mapa i Dojazd Section */
+      .map-section {
+        background-color: var(--white);
+        padding: 0;
+      }
+
+      .map-grid {
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr;
+        height: 550px;
+        overflow: hidden;
+      }
+
+      .map-container {
+        width: 100%;
+        height: 100%;
+      }
+
+      .map-container iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+
+      .map-info-card {
+        background-color: var(--primary);
+        color: var(--white);
+        padding: 60px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 24px;
+        position: relative;
+      }
+
+      .map-info-card h3 {
+        font-size: 2.2rem;
+        color: var(--secondary);
+      }
+
+      .map-info-list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .map-info-item {
+        display: flex;
+        gap: 16px;
+        align-items: flex-start;
+      }
+
+      .map-info-icon {
+        color: var(--secondary);
+        flex-shrink: 0;
+        margin-top: 4px;
+      }
+
+      .map-info-text h4 {
+        color: var(--white);
+        font-size: 1rem;
+        margin-bottom: 4px;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 1px;
+      }
+
+      .map-info-text p {
+        color: var(--primary-light);
+        font-size: 0.95rem;
+      }
+
+      /* Kontakt Section */
+      .contact {
+        background-color: var(--section-bg);
+      }
+
+      .contact-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        align-items: stretch;
+      }
+
+      .contact-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 30px;
+      }
+
+      .contact-intro h3 {
+        font-size: 2.2rem;
+        margin-bottom: 16px;
+      }
+
+      .contact-cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+
+      .contact-detail-card {
+        background-color: var(--white);
+        padding: 24px;
+        border-radius: var(--border-radius-lg);
+        box-shadow: var(--shadow-sm);
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .contact-detail-icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 12px;
+        background-color: var(--primary-light);
+        color: var(--primary);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+      }
+
+      .contact-detail-content h4 {
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        color: var(--text-light);
+        letter-spacing: 1px;
+        margin-bottom: 4px;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+      }
+
+      .contact-detail-content a, .contact-detail-content p {
+        font-size: 1.15rem;
+        font-weight: 700;
+        color: var(--text);
+      }
+
+      .contact-detail-content a:hover {
+        color: var(--primary);
+      }
+
+      .contact-form-container {
+        background-color: var(--white);
+        padding: 40px;
+        border-radius: var(--border-radius-lg);
+        box-shadow: var(--shadow-md);
+        border: 1px solid var(--primary-light);
+      }
+
+      .contact-form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .form-group {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      .form-group label {
+        font-weight: 700;
+        font-size: 0.9rem;
+      }
+
+      .form-input {
+        padding: 14px 18px;
+        border-radius: 12px;
+        border: 1px solid #e1d3c8;
+        background-color: #faf8f6;
+        font-family: inherit;
+        font-size: 1rem;
+        outline: none;
+        transition: all 0.3s ease;
+      }
+
+      .form-input:focus {
+        border-color: var(--primary);
+        background-color: var(--white);
+        box-shadow: 0 0 0 4px var(--primary-light);
+      }
+
+      /* CTA Section */
+      .cta {
+        background-color: var(--primary);
+        background-image: radial-gradient(var(--primary-dark) 20%, transparent 20%), radial-gradient(var(--primary-dark) 20%, transparent 20%);
+        background-size: 40px 40px;
+        background-position: 0 0, 20px 20px;
+        color: var(--white);
+        text-align: center;
+        padding: 100px 0;
+      }
+
+      .cta-content {
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+      }
+
+      .cta h2 {
+        color: var(--secondary);
+        font-size: 3rem;
+        letter-spacing: -1px;
+      }
+
+      .cta p {
+        color: var(--primary-light);
+        font-size: 1.3rem;
+        max-width: 600px;
+      }
+
+      /* Footer */
+      footer {
+        background-color: #271c15;
+        color: #f5efe8;
+        padding: 70px 0 30px;
+      }
+
+      .footer-grid {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr 1fr;
+        gap: 50px;
+        margin-bottom: 50px;
+      }
+
+      .footer-brand {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+
+      .footer-brand .logo-text {
+        color: var(--secondary);
+      }
+
+      .footer-brand .logo-text span {
+        color: #bfaaa0;
+      }
+
+      .footer-brand p {
+        color: #bfaaa0;
+        font-size: 0.95rem;
+      }
+
+      .footer-nav h4, .footer-contact h4 {
+        color: var(--white);
+        font-size: 1.1rem;
+        margin-bottom: 24px;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+      }
+
+      .footer-nav ul, .footer-contact ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .footer-nav a {
+        color: #bfaaa0;
+      }
+
+      .footer-nav a:hover {
+        color: var(--secondary);
+        padding-left: 4px;
+      }
+
+      .footer-contact li {
+        display: flex;
+        gap: 12px;
+        color: #bfaaa0;
+        font-size: 0.95rem;
+      }
+
+      .footer-contact li svg {
+        color: var(--secondary);
+        flex-shrink: 0;
+      }
+
+      .footer-bottom {
+        border-top: 1px solid #3c2f25;
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+
+      .footer-bottom p {
+        font-size: 0.9rem;
+        color: #8c766b;
+      }
+
+      .footer-socials {
+        display: flex;
+        gap: 16px;
+      }
+
+      .social-icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #3c2f25;
+        color: var(--secondary);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+      }
+
+      .social-icon:hover {
+        background-color: var(--primary);
+        color: var(--white);
+        transform: translateY(-2px);
+      }
+
+      /* Responsive CSS Styles (Mobile First and Desktop Adaptations) */
+      @media (max-width: 1024px) {
+        .gallery-masonry {
+          column-count: 3;
+        }
+        .hero-title-group h1 {
+          font-size: 3rem;
+        }
+      }
+
+      @media (max-width: 768px) {
+        header {
+          position: fixed;
+          width: 100%;
+          left: 0;
+          top: 0;
+        }
+
+        body {
+          padding-top: 90px;
+        }
+
+        .header-container {
+          padding: 0 20px;
+        }
+
+        /* Mobile navigation toggle using pure CSS */
+        .menu-btn {
+          display: block;
+          cursor: pointer;
+          font-size: 2rem;
+          color: var(--primary);
+          z-index: 110;
+          order: 3;
+          user-select: none;
+        }
+
+        nav {
+          position: fixed;
+          top: 90px;
+          left: -100%;
+          width: 100%;
+          height: calc(100vh - 90px);
+          background-color: var(--white);
+          z-index: 100;
+          transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+          border-top: 1px solid var(--primary-light);
+          padding: 40px;
+          box-shadow: var(--shadow-lg);
+        }
+
+        nav ul {
+          flex-direction: column;
+          gap: 24px;
+          align-items: flex-start;
+          width: 100%;
+        }
+
+        nav a {
+          font-size: 1.3rem;
+          display: block;
+          width: 100%;
+        }
+
+        /* Hamburger checkbox state triggers menu display */
+        #menu-toggle:checked ~ nav {
+          left: 0;
+        }
+
+        #menu-toggle:checked ~ .menu-btn {
+          color: var(--text);
+        }
+
+        .hero-grid, .about-grid, .contact-grid {
+          grid-template-columns: 1fr;
+          gap: 40px;
+        }
+
+        .hero-visual {
+          order: -1;
+        }
+
+        .hero-img-wrapper {
+          max-width: 380px;
+        }
+
+        .gallery-masonry {
+          column-count: 2;
+        }
+
+        .map-grid {
+          grid-template-columns: 1fr;
+          height: auto;
+        }
+
+        .map-container {
+          height: 350px;
+        }
+
+        .map-info-card {
+          padding: 40px 24px;
+        }
+
+        .footer-grid {
+          grid-template-columns: 1fr;
+          gap: 40px;
+        }
+
+        .footer-bottom {
+          flex-direction: column;
+          text-align: center;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .hero-title-group h1 {
+          font-size: 2.4rem;
+        }
+
+        .hero-benefits {
+          grid-template-columns: 1fr;
+        }
+
+        .hero-actions {
+          flex-direction: column;
+          width: 100%;
+        }
+
+        .hero-actions .btn {
+          width: 100%;
+        }
+
+        .section-title {
+          font-size: 2rem;
+        }
+
+        .gallery-masonry {
+          column-count: 1;
+        }
+
+        .testimonial-quote {
+          font-size: 1rem;
+        }
+
+        .testimonial-card {
+          padding: 30px 20px;
+        }
+
+        .contact-form-container {
+          padding: 24px 16px;
+        }
+
+        .cta h2 {
+          font-size: 2rem;
+        }
+      }
+    </style>
+
+    <!-- Schema.org Bakery Rich Snippet -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Bakery",
+        "name": "Swojskie Wypieki",
+        "image": "https://i.ibb.co/ksPk7S2F/305126172-609226120844414-7210009753148408028-n.jpg",
+        "@id": "https://swojskiewypieki.pl/#bakery",
+        "url": "https://swojskiewypieki.pl",
+        "telephone": "+48227235869",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Jana Styki 9C",
+          "addressLocality": "Piastów",
+          "postalCode": "05-820",
+          "addressCountry": "PL"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 52.186944,
+          "longitude": 20.844167
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "06:00",
+            "closes": "18:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "06:00",
+            "closes": "14:00"
+          }
+        ],
+        "sameAs": "https://www.facebook.com/profile.php?id=100052710937322"
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Hidden input for pure-CSS hamburger menu toggle -->
+    <input type="checkbox" id="menu-toggle" class="menu-btn" style="display: none;" />
+
+    <!-- HEADER / NAVIGATION -->
+    <header id="strona-glowna">
+      <div class="container header-container">
+        <a href="#strona-glowna" class="logo-area">
+          <img src="https://i.ibb.co/ksPk7S2F/305126172-609226120844414-7210009753148408028-n.jpg" alt="Logo Swojskie Wypieki" class="logo-img" width="54" height="54" />
+          <div class="logo-text">
+            Swojskie Wypieki
+            <span>Piekarnia &amp; Cukiernia</span>
+          </div>
+        </a>
+
+        <!-- CSS Toggle Label acting as hamburger icon -->
+        <label for="menu-toggle" class="menu-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </label>
+
+        <nav>
+          <ul>
+            <li><a href="#strona-glowna">Start</a></li>
+            <li><a href="#o-nas">O nas</a></li>
+            <li><a href="#wypieki">Oferta</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#lody">Lody</a></li>
+            <li><a href="#opinie">Opinie</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- SECTION 1: HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="section-badge">Z miłości do pieczenia</span>
+          <div class="hero-title-group">
+            <h1>SWOJSKIE WYPIEKI</h1>
+            <h2>Niepowtarzalne wypieki, chleby, bułki, drożdżówki i wiele innych.</h2>
+          </div>
+          <p class="hero-desc">
+            Sprzedajemy świeże, a często jeszcze ciepłe wypieki przygotowywane na miejscu według tradycyjnych i sprawdzonych receptur. Zajrzyj, a zasmakujesz!
+          </p>
+          <ul class="hero-benefits">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Świeże wypieki każdego dnia
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Tradycyjne receptury
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Chleby i bułki prosto z pieca
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Domowy smak dzieciństwa
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Lokalne, rzemieślnicze serce
+            </li>
+          </ul>
+          <div class="hero-actions">
+            <a href="#kontakt" class="btn btn-primary">Odwiedź nas</a>
+            <a href="#wypieki" class="btn btn-secondary">Zobacz wypieki</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-img-wrapper">
+            <img src="https://i.ibb.co/Y787vkmG/687033564-1630732888693727-5723382117652906928-n.jpg" alt="Świeże, tradycyjne pieczywo rzemieślnicze Swojskie Wypieki" class="hero-img" width="480" height="480" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: O NAS -->
+    <section class="about" id="o-nas">
+      <div class="container about-grid">
+        <div class="about-images">
+          <img src="https://i.ibb.co/S7wgdpXw/707522337-1650313040069045-848238492985846922-n.jpg" alt="Proces rzemieślniczego wypieku chleba, tradycyjna mąka" class="about-img-main" width="400" height="400" />
+          <img src="https://i.ibb.co/kV3dgyMp/706851281-1650313366735679-6110411511555278142-n.jpg" alt="Złocisty, chrupiący chleb na zakwasie" class="about-img-sub" width="250" height="250" />
+        </div>
+        <div class="about-content">
+          <span class="section-badge">Nasza Historia</span>
+          <h2 class="section-title">Smak, który pamięta się na długo</h2>
+          <div class="wheat-divider">◆</div>
+          <p>
+            Swojskie Wypieki to lokalna piekarnia i cukiernia zrodzona z pasji do rzemiosła i miłości do zapachu chrupiącego chleba. Wierzymy, że jedzenie powinno łączyć ludzi i przywoływać najmilsze wspomnienia z rodzinnego domu.
+          </p>
+          <div class="about-highlight">
+            "Nasze pieczywo to nie tylko mąka, woda i zakwas. To przede wszystkim czas, cierpliwość oraz serce, które wkładamy w każdy bochenek."
+          </div>
+          <p>
+            Wszystkie nasze wyroby powstają na miejscu, od podstaw, bez pośpiechu i bez użycia sztucznych polepszaczy. Korzystamy wyłącznie z naturalnych, starannie wyselekcjonowanych składników od zaufanych dostawców, dzięki czemu nasze chleby i słodkości zachwycają głębią smaku i niepowtarzalnym aromatem.
+          </p>
+          <div class="about-features">
+            <div class="about-feature-item">
+              <div class="about-feature-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              </div>
+              <div class="about-feature-text">
+                <h4>Dziedzictwo i pasja</h4>
+                <p>Korzystamy z tradycyjnych, pokoleniowych receptur.</p>
+              </div>
+            </div>
+            <div class="about-feature-item">
+              <div class="about-feature-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <div class="about-feature-text">
+                <h4>Naturalne składniki</h4>
+                <p>Tylko prawdziwe masło, zakwas i polskie zboża.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: NASZE WYPIEKI -->
+    <section class="products" id="wypieki">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Co na Ciebie czeka?</span>
+          <h2 class="section-title">Rzemieślnicze Specjały</h2>
+          <p>Szeroki wybór tradycyjnych wyrobów, przygotowywanych codziennie o świcie, abyś mógł cieszyć się ich nieskazitelną świeżością.</p>
+        </div>
+        <div class="products-grid">
+          <!-- Chleby -->
+          <div class="product-card">
+            <h3>Chleby</h3>
+            <p>Tradycyjne chleby żytnie, pszenne oraz mieszane na naturalnym, wieloletnim zakwasie. Długo dojrzewające, z niesamowicie chrupiącą skórką i puszystym wnętrzem.</p>
+            <a href="#galeria" class="btn-link">Zobacz galerię <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          </div>
+
+          <!-- Bułki -->
+          <div class="product-card">
+            <h3>Bułki</h3>
+            <p>Chrupiące bułeczki śniadaniowe, kajzerki, rustykalne bagietki oraz bułki grahamki. Zawsze złociste, idealnie dopieczone, przygotowywane z myślą o udanym poranku.</p>
+            <a href="#galeria" class="btn-link">Zobacz galerię <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          </div>
+
+          <!-- Drożdżówki -->
+          <div class="product-card">
+            <h3>Drożdżówki</h3>
+            <p>Delikatne, puszyste drożdżówki z kruszonką, serem, makiem, świeżymi owocami lub marmoladą. Cudownie pachnące, słodkie chwile czystej przyjemności.</p>
+            <a href="#galeria" class="btn-link">Zobacz galerię <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          </div>
+
+          <!-- Ciasta -->
+          <div class="product-card">
+            <h3>Ciasta</h3>
+            <p>Domowe, wilgotne serniki, tradycyjne makowce, jabłeczniki pod kruszonką oraz sezonowe placki owocowe. Smakują dokładnie tak, jak te pieczone przez babcię.</p>
+            <a href="#galeria" class="btn-link">Zobacz galerię <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          </div>
+
+          <!-- Słodkie wypieki -->
+          <div class="product-card">
+            <h3>Słodkie wypieki</h3>
+            <p>Puszyste pączki ze szlachetnym nadzieniem różanym, kruche rogaliki, ciastka maślane, francuskie z owocami i pachnące cynamonem zawijasy.</p>
+            <a href="#galeria" class="btn-link">Zobacz galerię <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          </div>
+
+          <!-- Lody rzemieślnicze -->
+          <div class="product-card">
+            <h3>Lody rzemieślnicze</h3>
+            <p>Prawdziwe lody własnej produkcji powstające ze świeżej śmietanki, mleka i naturalnych dodatków. Kremowa konsystencja i smaki, które urzekają od pierwszego kęsa.</p>
+            <a href="#lody" class="btn-link">Odkryj smaki <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: GALERIA WYPIEKÓW -->
+    <section class="gallery" id="galeria">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Zza kulis i półek</span>
+          <h2 class="section-title">Galeria Naszych Wypieków</h2>
+          <p>Zobacz nasze autentyczne produkty i poczuj zapach świeżości. Każdy wypiek przygotowujemy ręcznie z najwyższą pieczołowitością.</p>
+        </div>
+        
+        <div class="gallery-masonry">
+          <!-- Image 1 -->
+          <div class="gallery-item">
+            <img src="https://i.ibb.co/Y787vkmG/687033564-1630732888693727-5723382117652906928-n.jpg" alt="Artystyczne bochenki chleba na drewnianych półkach" loading="lazy" />
+          </div>
+          
+          <!-- Image 2 -->
+          <div class="gallery-item">
+            <img src="https://i.ibb.co/sJgfjqDN/686515229-1630732982027051-1835345689732639568-n.jpg" alt="Rumiane, chrupiące bułeczki" loading="lazy" />
+          </div>
+          
+          <!-- Image 3 -->
+          <div class="gallery-item">
+            <img src="https://i.ibb.co/KkCyK85/690100341-1630733042027045-8725330661863359493-n.jpg" alt="Słodkie pączki z lukrem" loading="lazy" />
+          </div>
+          
+          <!-- Image 4 -->
+          <div class="gallery-item">
+            <img src="https://i.ibb.co/fYB5rt7z/706831999-1650313440069005-7414231639311412225-n.jpg" alt="Słodkie wypieki i ciasta domowe" loading="lazy" />
+          </div>
+          
+          <!-- Image 5 -->
+          <div class="gallery-item">
+            <img src="https://i.ibb.co/0pSvPGGF/705306431-1650312510069098-527411261085545365-n.jpg" alt="Praca piekarza z ciastem na chleb" loading="lazy" />
+          </div>
+          
+          <!-- Image 6 -->
+          <div class="gallery-item">
+            <img src="https://i.ibb.co/BKGC2784/706946321-1650313536735662-1690984522658275922-n.jpg" alt="Złociste rogale maślane" loading="lazy" />
+          </div>
+          
+          <!-- Image 7 -->
+          <div class="gallery-item">
+            <img src="https://i.ibb.co/GQsxbr3N/706839603-1650313760068973-3552097116744956863-n.jpg" alt="Słodkie drożdżówki prosto z pieca" loading="lazy" />
+          </div>
+          
+          <!-- Image 8 -->
+          <div class="gallery-item">
+            <img src="https://i.ibb.co/JRFxFSpZ/707174829-1650313636735652-1912353051881513936-n.jpg" alt="Rumiane, podłużne bagietki rzemieślnicze" loading="lazy" />
+          </div>
+          
+          <!-- Image 9 -->
+          <div class="gallery-item">
+            <img src="https://i.ibb.co/8gk1fWN0/707079879-1650312630069086-1254764151513325048-n.jpg" alt="Zaplecione chałki drożdżowe" loading="lazy" />
+          </div>
+          
+          <!-- Image 10 -->
+          <div class="gallery-item">
+            <img src="https://i.ibb.co/kV3dgyMp/706851281-1650313366735679-6110411511555278142-n.jpg" alt="Duży okrągły chleb z chrupiącą skórką" loading="lazy" />
+          </div>
+          
+          <!-- Image 11 -->
+          <div class="gallery-item">
+            <img src="https://i.ibb.co/dwJdxcg7/706276959-1650312800069069-5855426043302473719-n.jpg" alt="Razowy chleb żytni posypany ziarnem" loading="lazy" />
+          </div>
+          
+          <!-- Image 12 -->
+          <div class="gallery-item">
+            <img src="https://i.ibb.co/LzvgmzsJ/706831552-1650314203402262-1637028881873121703-n.jpg" alt="Słodkie wypieki z kremem" loading="lazy" />
+          </div>
+          
+          <!-- Image 13 -->
+          <div class="gallery-item">
+            <img src="https://i.ibb.co/b5f2XpPB/707153598-1650312913402391-3057781456207768123-n.jpg" alt="Złocisty rogalik w powiększeniu" loading="lazy" />
+          </div>
+          
+          <!-- Image 14 -->
+          <div class="gallery-item">
+            <img src="https://i.ibb.co/TBzmk7sB/706965979-1650314223402260-5407680255569521491-n.jpg" alt="Aromatyczne ślimaczki cynamonowe" loading="lazy" />
+          </div>
+          
+          <!-- Image 15 -->
+          <div class="gallery-item">
+            <img src="https://i.ibb.co/wNf08s7k/704914374-1650312993402383-4311763811815018597-n.jpg" alt="Piękna struktura miąższu chleba" loading="lazy" />
+          </div>
+          
+          <!-- Image 16 -->
+          <div class="gallery-item">
+            <img src="https://i.ibb.co/S7wgdpXw/707522337-1650313040069045-848238492985846922-n.jpg" alt="Sypanie mąki i tradycyjne przygotowanie ciasta" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: LODY RZEMIEŚLNICZE -->
+    <section class="ice-cream" id="lody">
+      <div class="container">
+        <div class="section-header">
+          <span class="ice-cream-badge">Letnie orzeźwienie</span>
+          <h2 class="section-title">Naturalne Lody Rzemieślnicze</h2>
+          <div class="ice-cream-location">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Alternatywy 4, Ursynów
+          </div>
+          <p>Zapraszamy na pyszne lody rzemieślnicze – naturalne, kremowe i pełne wyjątkowego smaku. Produkujemy je na miejscu z pasją i najlepszych lokalnych składników.</p>
+        </div>
+
+        <div class="flavors-grid">
+          <!-- Guma balonowa -->
+          <div class="flavor-card f-bubble">
+            <h3 class="flavor-title">Guma Balonowa</h3>
+            <p class="flavor-desc">Ukochany, kultowy smak dzieciństwa. Słodki, radosny i niesamowicie kremowy.</p>
+          </div>
+
+          <!-- Oreo -->
+          <div class="flavor-card f-oreo">
+            <h3 class="flavor-title">Oreo</h3>
+            <p class="flavor-desc">Kremowa baza z mnóstwem chrupiących kawałków oryginalnych ciasteczek.</p>
+          </div>
+
+          <!-- Mleczna truskawka -->
+          <div class="flavor-card f-strawberry">
+            <h3 class="flavor-title">Mleczna Truskawka</h3>
+            <p class="flavor-desc">Przygotowywana ze świeżych, dojrzewających w słońcu polskich truskawek i mleka.</p>
+          </div>
+
+          <!-- Cytryna z miętą -->
+          <div class="flavor-card f-lemon">
+            <h3 class="flavor-title">Cytryna z Miętą</h3>
+            <p class="flavor-desc">Wybitnie orzeźwiający sorbet z soczystych cytryn przełamany świeżą miętą.</p>
+          </div>
+
+          <!-- Solony karmel -->
+          <div class="flavor-card f-caramel">
+            <h3 class="flavor-title">Solony Karmel</h3>
+            <p class="flavor-desc">Aksamitny, palony karmel z idealną szczyptą soli morskiej dla kontrastu.</p>
+          </div>
+
+          <!-- Pistacja -->
+          <div class="flavor-card f-pistachio">
+            <h3 class="flavor-title">Pistacja</h3>
+            <p class="flavor-desc">Wykwintna i intensywna, sporządzona z prawdziwej pasty z sycylijskich pistacji.</p>
+          </div>
+
+          <!-- Lawenda z czarną porzeczką -->
+          <div class="flavor-card f-lavender">
+            <h3 class="flavor-title">Lawenda &amp; Porzeczka</h3>
+            <p class="flavor-desc">Niezwykłe, kwiatowe nuty lawendy zrównoważone kwaskowatą czarną porzeczką.</p>
+          </div>
+
+          <!-- Śmietanka -->
+          <div class="flavor-card f-cream">
+            <h3 class="flavor-title">Tradycyjna Śmietanka</h3>
+            <p class="flavor-desc">Prawdziwa klasyka – głęboki, czysty mleczny smak na bazie świeżej śmietanki.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: OPINIE KLIENTÓW -->
+    <section class="testimonials" id="opinie">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Nasi Goście nas uwielbiają</span>
+          <h2 class="section-title">Co Mówią o Nas Klienci?</h2>
+          <p>Największą nagrodą za naszą codzienną pracę są uśmiechy oraz pozytywne opinie tych, którzy nas odwiedzają.</p>
+        </div>
+
+        <div class="testimonial-grid">
+          <!-- Opinia 1 -->
+          <div class="testimonial-card">
+            <p class="testimonial-quote">
+              Super wypieki, klimat dawnych lat. Bardzo się cieszę, że w dzisiejszych czasach można jeszcze zjeść prawdziwy chleb robiony z sercem.
+            </p>
+            <div class="testimonial-author">
+              <div class="testimonial-meta">
+                <div class="testimonial-stars">★★★★★</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Opinia 2 -->
+          <div class="testimonial-card">
+            <p class="testimonial-quote">
+              Pyszne i apetyczne chlebki - uwielbiam domowy, właśnie szukam sklepu w okolicy Piastowa / Pruszkowa blisko miejsca zamieszkania. Trafiłam idealnie!
+            </p>
+            <div class="testimonial-author">
+              <div class="testimonial-meta">
+                <div class="testimonial-stars">★★★★★</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Opinia 3 -->
+          <div class="testimonial-card">
+            <p class="testimonial-quote">
+              Polecam!!! Cudowne drożdżówki z serem i jagodami, zawsze świeże i pulchne. Do tego najmilsza obsługa na świecie. Nasza ulubiona piekarnia.
+            </p>
+            <div class="testimonial-author">
+              <div class="testimonial-meta">
+                <div class="testimonial-stars">★★★★★</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: DLACZEGO MY -->
+    <section class="why-us">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Nasze standardy</span>
+          <h2 class="section-title">Dlaczego Swojskie Wypieki?</h2>
+          <p>Oto osiem filarów, dzięki którym codzienne wypieki dostarczają tak wiele radości naszym wiernym klientom.</p>
+        </div>
+
+        <div class="why-us-grid">
+          <!-- 1. Świeże każdego dnia -->
+          <div class="why-us-card">
+            <div class="why-us-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            </div>
+            <h3>Świeże każdego dnia</h3>
+            <p>Zaczynamy pracę o świcie, by rano czekało na Ciebie ciepłe pieczywo.</p>
+          </div>
+
+          <!-- 2. Tradycyjne receptury -->
+          <div class="why-us-card">
+            <div class="why-us-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            </div>
+            <h3>Tradycyjne receptury</h3>
+            <p>Pieczemy według sprawdzonych metod przekazywanych z pokolenia na pokolenie.</p>
+          </div>
+
+          <!-- 3. Lokalna piekarnia -->
+          <div class="why-us-card">
+            <div class="why-us-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <h3>Lokalna piekarnia</h3>
+            <p>Jesteśmy dumni z bycia sercem lokalnej społeczności w Piastowie.</p>
+          </div>
+
+          <!-- 4. Ciepłe wypieki -->
+          <div class="why-us-card">
+            <div class="why-us-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+            </div>
+            <h3>Ciepłe wypieki</h3>
+            <p>Wiele produktów trafia na półki prosto z gorącego pieca na Twoich oczach.</p>
+          </div>
+
+          <!-- 5. Naturalne składniki -->
+          <div class="why-us-card">
+            <div class="why-us-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <h3>Naturalne składniki</h3>
+            <p>Zero ulepszaczy i chemii. Tylko czysta mąka, woda, zakwas i prawdziwe masło.</p>
+          </div>
+
+          <!-- 6. Domowy smak -->
+          <div class="why-us-card">
+            <div class="why-us-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            </div>
+            <h3>Domowy smak</h3>
+            <p>Tworzymy wyroby, które smakują autentycznie i przywodzą na myśl chwile z dzieciństwa.</p>
+          </div>
+
+          <!-- 7. Rzemieślnicze podejście -->
+          <div class="why-us-card">
+            <div class="why-us-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3>Rzemieślnicze podejście</h3>
+            <p>Praca ludzkich rąk nadaje każdemu wypiekowi niepowtarzalny charakter.</p>
+          </div>
+
+          <!-- 8. Miła obsługa -->
+          <div class="why-us-card">
+            <div class="why-us-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+            </div>
+            <h3>Miła obsługa</h3>
+            <p>Zawsze witamy Cię z uśmiechem, chętnie doradzając i rozmawiając przy zakupach.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 8: MAPA I DOJAZD -->
+    <section class="map-section">
+      <div class="map-grid">
+        <div class="map-container">
+          <!-- Clean Google Maps Embed URL based on address input -->
+          <iframe 
+            src="https://maps.google.com/maps?q=Jana%20Styki%209C,%20Piast%C3%B3w&t=&z=16&ie=UTF8&iwloc=&output=embed" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Mapa lokalizacji piekarni Swojskie Wypieki w Piastowie">
+          </iframe>
+        </div>
+        <div class="map-info-card">
+          <h3>Jak do nas trafić?</h3>
+          <p>Znajdujemy się w doskonałej, spokojnej lokalizacji w Piastowie. Łatwo dojedziesz do nas zarówno z Pruszkowa, jak i z zachodnich dzielnic Warszawy.</p>
+          
+          <ul class="map-info-list">
+            <li class="map-info-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="map-info-icon" style="color: var(--secondary); margin-top: 4px; flex-shrink: 0;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <div class="map-info-text">
+                <h4>Adres</h4>
+                <p>ul. Jana Styki 9C<br/>05-820 Piastów</p>
+              </div>
+            </li>
+            <li class="map-info-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="map-info-icon" style="color: var(--secondary); margin-top: 4px; flex-shrink: 0;"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <div class="map-info-text">
+                <h4>Godziny Otwarcia</h4>
+                <p>Poniedziałek - Piątek: 06:00 - 18:00<br/>Sobota: 06:00 - 14:00</p>
+              </div>
+            </li>
+            <li class="map-info-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="map-info-icon" style="color: var(--secondary); margin-top: 4px; flex-shrink: 0;"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+              <div class="map-info-text">
+                <h4>Parking</h4>
+                <p>Darmowe miejsca parkingowe bezpośrednio pod lokalem.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 9: KONTAKT -->
+    <section class="contact" id="kontakt">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-details">
+            <div class="contact-intro">
+              <span class="section-badge">Zawsze po drodze</span>
+              <h3>Skontaktuj się z nami</h3>
+              <p>Chcesz zamówić ciasto na weekend, zamówić większą ilość świeżego pieczywa, czy po prostu zapytać o dzisiejsze wypieki? Zadzwoń, napisz lub odwiedź nas osobiście!</p>
+            </div>
+
+            <div class="contact-cards">
+              <!-- Telefon -->
+              <div class="contact-detail-card">
+                <div class="contact-detail-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div class="contact-detail-content">
+                  <h4>Telefon</h4>
+                  <a href="tel:227235869">22 723 58 69</a>
+                </div>
+              </div>
+
+              <!-- Email -->
+              <div class="contact-detail-card">
+                <div class="contact-detail-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div class="contact-detail-content">
+                  <h4>Adres Email</h4>
+                  <a href="mailto:beata.kalinowska@swojskiewypieki.pl">beata.kalinowska@swojskiewypieki.pl</a>
+                </div>
+              </div>
+
+              <!-- Facebook -->
+              <div class="contact-detail-card">
+                <div class="contact-detail-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                </div>
+                <div class="contact-detail-content">
+                  <h4>Facebook</h4>
+                  <a href="https://www.facebook.com/profile.php?id=100052710937322" target="_blank" rel="noopener noreferrer">Znajdź nas na Facebooku</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-container">
+            <form class="contact-form" action="#" onsubmit="alert('Dziękujemy za kontakt! Odpowiemy tak szybko, jak to możliwe.'); return false;">
+              <h3 style="font-size: 1.6rem; margin-bottom: 10px;">Napisz do nas</h3>
+              
+              <div class="form-group">
+                <label for="name">Imię i Nazwisko</label>
+                <input type="text" id="name" class="form-input" placeholder="np. Jan Kowalski" required />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Adres E-mail</label>
+                <input type="email" id="email" class="form-input" placeholder="np. jan@gmail.com" required />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Wiadomość / Zamówienie</label>
+                <textarea id="message" class="form-input" style="min-height: 120px; resize: vertical;" placeholder="Wpisz treść swojej wiadomości..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">Wyślij Wiadomość</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 10: CTA (CALL TO ACTION) -->
+    <section class="cta">
+      <div class="container cta-content">
+        <h2>Zapraszamy po świeże wypieki każdego dnia</h2>
+        <p>Przyjdź, poczuj niesamowity aromat pieczonego chleba i zasmakuj w prawdziwych, rzemieślniczych swojskich wyrobach.</p>
+        <div class="hero-actions">
+          <a href="tel:227235869" class="btn btn-secondary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            Zadzwoń i zamów
+          </a>
+          <a href="https://maps.google.com/maps?q=Jana%20Styki%209C,%20Piast%C3%B3w" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="border-color: var(--secondary); color: var(--secondary);">
+            Wyznacz trasę dojazdu
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="logo-area">
+            <img src="https://i.ibb.co/ksPk7S2F/305126172-609226120844414-7210009753148408028-n.jpg" alt="Logo Swojskie Wypieki" class="logo-img" width="54" height="54" style="border-color: var(--primary);" />
+            <div class="logo-text">
+              Swojskie Wypieki
+              <span>Piekarnia &amp; Cukiernia</span>
+            </div>
+          </div>
+          <p>Wyjątkowa rzemieślnicza piekarnia w Piastowie. Tworzymy z pasją, opierając się na tradycji, naturalnym zakwasie i szczerym uśmiechu dla każdego klienta.</p>
+        </div>
+
+        <div class="footer-nav">
+          <h4>Szybkie Linki</h4>
+          <ul>
+            <li><a href="#strona-glowna">Strona Główna</a></li>
+            <li><a href="#o-nas">O Nas i Nasza Historia</a></li>
+            <li><a href="#wypieki">Oferta Produktowa</a></li>
+            <li><a href="#galeria">Nasza Galeria</a></li>
+            <li><a href="#lody">Lody rzemieślnicze Ursynów</a></li>
+            <li><a href="#opinie">Opinie naszych Gości</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Dane Kontaktowe</h4>
+          <ul>
+            <li>
+              Jana Styki 9C, 05-820 Piastów
+            </li>
+            <li>
+              <a href="tel:227235869" style="color: inherit;">22 723 58 69</a>
+            </li>
+            <li>
+              <a href="mailto:beata.kalinowska@swojskiewypieki.pl" style="color: inherit;">beata.kalinowska@swojskiewypieki.pl</a>
+            </li>
+            <li>
+              Pon-Pt: 6:00-18:00 | Sob: 6:00-14:00
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>&copy; 2026 Swojskie Wypieki. Wszelkie prawa zastrzeżone.</p>
+        <div class="footer-socials">
+          <a href="https://www.facebook.com/profile.php?id=100052710937322" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Odwiedź nasz profil na Facebooku">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=100052710937322&sk=reviews" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Przeczytaj opinie na Facebooku" style="font-weight: 700; font-size: 0.85rem;">
+            ★
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
